@@ -1,0 +1,78 @@
+body{
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+	background-color: #17274B;
+}
+.ba-container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ba-playlist {
+	background-color: #f1f1f1;
+	border-radius: 20px;
+	-webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+	padding: 30px 20px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.ba-song {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 500;
+	margin: 25px 0;
+	color: #fff;
+}
+
+.ba-song {
+	border-top: 1px solid #807b7b;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.ba-songinfo {
+	font-size: 80%;
+	margin-bottom: 5px;
+	color: #807b7b;
+	display: flex;
+}
+
+.ba-song__duration {
+	display: inline-block;
+	padding-right: 10px;
+	margin-right: 6px;
+	border-right: 1px solid rgba(164, 163, 169, 0.6);
+}
+
+.ba-song__author {
+	text-transform: capitalize;
+}
+
+.ba-song__song {
+	font-weight: 600;
+}
+
+.ba-song__song::first-letter {
+	text-transform: uppercase;
+}
+
+.ba-like {
+	margin-top: 10px;
+	width: 20px;
+	height: 20px;
+	float: right;
+	fill: black;
+	cursor: pointer;
+}
+
+.ba-like:hover {
+	fill: red;
+}
+
